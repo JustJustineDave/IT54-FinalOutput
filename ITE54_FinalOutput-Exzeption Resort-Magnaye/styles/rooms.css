@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap");@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap");
+
+* {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+}
+body {
+    background-color: black;
+}
+.grd_container {
+    display: grid;
+}
+img{
+    box-shadow: 2px 3px rgb(52, 52, 52);
+}
+.boxmodel {
+    width: 100%;
+    padding: 0px 10px 10px 10px;
+    border: 2px solid gray;
+    border-radius: 50px;
+    box-shadow: 5px 3px gray;
+    text-align: center;
+}
+.reserve_button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+.reserve_button:hover {
+    background-color: #17671b; 
+}
+.home_button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+.home_button:hover {
+    background-color: #2ecc71; 
+}
+a {
+    text-decoration: none;
+}
+iframe {
+    display: none;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white; 
+}

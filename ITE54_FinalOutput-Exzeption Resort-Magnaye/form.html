@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation Form</title>
+    <link rel="stylesheet" href="./styles/forms.css">
+</head>
+<body>
+    <h1>Rooms Reservation - Luxury Room</h1>
+  
+    <form action="submit_form.html" method="post">
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="full_name">Full Name:</label>
+            <input type="text" id="full_name" name="full_name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="phone">Address:</label>
+            <input type="tel" id="address" name="address" required>
+        </fieldset>
+        <fieldset>
+            <legend>Payment Method</legend>
+
+            <label for="full_name"><h2>Choose Payment Method:</h2></label>
+            <select id="payment_method" name="payment_method" required>
+                <option value="" disabled selected>Select a payment method</option>
+                <option value="credit_card">Credit Card</option>
+                <option value="paypal">PayPal</option>
+                <option value="bank_transfer">Bank Transfer</option>
+                <option value="gcash">GCash</option>
+            </select>
+
+        </fieldset>
+        <input type="submit" value="Submit" id="submit">
+    </form>
+    <script src="./scripts/form.js"></script>
+</body>
+</html>
